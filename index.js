@@ -4,7 +4,7 @@ const cors = require('cors')
 const { v4: uuidv4 } = require('uuid');
 require('dotenv').config()
 
-// MODDLEWARES
+// MIDDLEWARES
 app.use(cors())
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
